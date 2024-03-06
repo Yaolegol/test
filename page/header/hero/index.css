@@ -1,5 +1,9 @@
 @import './content/index.css';
 
+.hero {
+    padding-top: 26px;
+}
+
 .hero__content {
     margin-top: 62px;
 }
