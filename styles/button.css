@@ -1,0 +1,34 @@
+.button {
+    background: none;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    transition: .3s;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button_default {
+    border: 2px solid var(--color-button-black);
+    border-radius: 66px;
+}
+
+.button_default:hover {
+    background: var(--color-button-black);
+    color: var(--color-button-white);
+}
+
+.button_black {
+    background: var(--color-button-black);
+    border: none;
+    border-radius: 66px;
+    color: var(--color-button-white);
+}
+
+.button_black:hover {
+    background: var(--color-button-yellow);
+    color: var(--color-button-black);
+}
