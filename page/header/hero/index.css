@@ -1,5 +1,5 @@
 @import './content/index.css';
 
-.hero {
-    
+.hero__content {
+    margin-top: 62px;
 }

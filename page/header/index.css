@@ -1,5 +1,6 @@
 @import './hero/index.css';
 
-.header__hero {
-    margin-top: 62px;
+.header {
+    background: url(/home/oleg/PhpstormProjects/Yandex/images/hero_destop.png) center no-repeat;
+    height: 700px;
 }
