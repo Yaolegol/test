@@ -1,0 +1,5 @@
+@import './hero/index.css';
+
+.header__hero {
+    margin-top: 62px;
+}

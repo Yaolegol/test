@@ -1,3 +1,4 @@
+@import '../layout/index.css';
+@import '../logo/index.css';
 @import '../styles/index.css';
-@import './hero/index.css';
-@import './layout/index.css';
+@import './header/index.css';
