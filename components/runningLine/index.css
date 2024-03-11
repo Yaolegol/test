@@ -10,7 +10,7 @@
 }
 
 .running-line__content {
-    animation: running-line 10s linear infinite;
+    animation: running-line 30s linear infinite;
     color: var(--color-common-white);
     font-size: 22px;
     line-height: 24px;
