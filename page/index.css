@@ -1,4 +1,5 @@
+@import '../components/logo/index.css';
+@import '../components/runningLine/index.css';
 @import '../layout/index.css';
-@import '../logo/index.css';
 @import '../styles/index.css';
 @import './header/index.css';

@@ -1,0 +1,40 @@
+.running-line {
+    overflow: hidden;
+}
+
+.running-line__container {
+    background-color: var(--color-running-line-bg);
+    box-sizing: content-box;
+    padding: 18px 0 18px 100%;
+    width: 100%;
+}
+
+.running-line__content {
+    animation: running-line 10s linear infinite;
+    color: var(--color-common-white);
+    font-size: 22px;
+    line-height: 24px;
+    padding-right: 100%;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.running-line__item::after {
+    background-color: var(--color-common-white);
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 6px;
+    margin: 0 12px;
+    vertical-align: middle;
+    width: 6px;
+}
+  
+@keyframes running-line {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
