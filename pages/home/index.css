@@ -1,0 +1,10 @@
+@import '../../components/logo/index.css';
+@import '../../components/runningLine/index.css';
+@import '../../layout/index.css';
+@import '../../styles/index.css';
+@import './announcementHeader/index.css';
+@import './header/index.css';
+
+.home__announcement-header {
+    margin-top: 80px;
+}

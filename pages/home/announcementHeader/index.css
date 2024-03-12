@@ -1,0 +1,33 @@
+.announcement-header {
+    display: grid;
+    grid-template-areas:
+        "text-top image"
+        "text-bottom image";
+    grid-template-columns: 8fr 4fr;
+}
+
+.announcement-header__text {
+    text-transform: uppercase;
+}
+
+.announcement-header__text_bottom {
+    grid-area: text-bottom;
+}
+
+.announcement-header__text_red {
+    color: red;
+}
+
+.announcement-header__text_top {
+    grid-area: text-top;
+}
+
+@media (max-width: 1024px) {
+    .announcement-header {
+        grid-template-areas:
+            "text-top"
+            "image"
+            "text-bottom";
+        grid-template-columns: 1fr;
+    }
+}
