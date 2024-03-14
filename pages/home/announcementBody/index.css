@@ -1,0 +1,27 @@
+.announcement-body {
+    display: flex;
+    gap: 44px;
+}
+
+.announcement-body__content-body {
+    margin-top: 60px;
+}
+
+.announcement-body__content-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.announcement-body__content-link {
+    margin-top: 48px;
+}
+
+.announcement-body__content-title_red {
+    color: var(--color-running-line-bg);
+}
+
+.announcement-body__table-price {
+    margin-left: 12px;
+}

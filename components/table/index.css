@@ -1,0 +1,33 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table__item {
+    padding: 16px;
+}
+
+.table__item_header {
+    border-top: var(--border-table);
+    border-right: var(--border-table);
+    color: var(--color-table-header);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.table__item_title {
+    border-top: var(--border-table);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px;
+}
+
+.table__item_bottom {
+    padding-bottom: none;
+}
+
+.table__item_top {
+    border-top: none;
+    padding-top: none;
+}
